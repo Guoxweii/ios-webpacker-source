@@ -1,0 +1,43 @@
+@import "../variables";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+.unit-text {
+  padding-bottom: 2em;
+
+  h1 {
+    font-size: 150%;
+  }
+
+  h2 {
+    font-size: 135%;
+  }
+
+  h3 {
+    font-size: 115%;
+  }
+
+  h4 {
+    font-size: 100%;
+  }
+
+  h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .tp-header {
+    margin-bottom: 0.8em;
+
+    h1, h2, h3, h4, p {
+      margin-bottom: 0.3em;
+    }
+  }
+}
+
+.rt-entry {
+  color: $text-color;
+}
+
+.rt-playing {
+  color: #ff6700;
+}
