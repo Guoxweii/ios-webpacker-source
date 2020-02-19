@@ -1,0 +1,79 @@
+.tp-article {
+  font-family: "CustomNormal", "Noto Sans CJK SC", "source-han-sans-cjk-sc", "source-han-sans-simplified-c", "PingFang SC", "Hiragino Sans GB", "Heiti SC",
+               "Microsoft YaHei", "Noto Sans", "San Francisco", "Segoe UI", "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial,
+               sans-serif;
+
+  h1, h2, h3, h4, h5, h6, strong {
+    font-family: "CustomBold", "Noto Sans CJK SC", "source-han-sans-cjk-sc", "source-han-sans-simplified-c", "PingFang SC", "Hiragino Sans GB", "Heiti SC",
+                 "Microsoft YaHei", "Noto Sans", "San Francisco", "Segoe UI", "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial,
+                 sans-serif
+  }
+
+  line-height: 1.5;
+
+  p, table {
+    margin-bottom: 1em;
+  }
+
+  .char {
+    display: inline-block;
+    min-width: 1.5em;
+    margin-right: -0.25em;
+    text-align: center;
+  }
+
+  .char ruby {
+    margin-left: -0.125em;
+    margin-right: -0.125em;
+  }
+
+  ruby {
+    ruby-align: center;
+  }
+
+  rt {
+    letter-spacing: 0;
+    transform: translateY(0.25em);
+  }
+}
+
+.tp-header {
+  margin-bottom: 1em;
+  line-height: 1.2;
+}
+
+.tp-table {
+  td {
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+  }
+}
+
+.tp-table-char {
+  td {
+    min-width: 1.5em;
+    text-align: center;
+    vertical-align: baseline;
+
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.tp-extra-spacing {
+  line-height: 2;
+  letter-spacing: 0.08em;
+}
+
+.tp-text-center {
+  text-align: center !important;
+}
+
+.tp-text-left {
+  text-align: left !important;
+}
+
+.tp-block-center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

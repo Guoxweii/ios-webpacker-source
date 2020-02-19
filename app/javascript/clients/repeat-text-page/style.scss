@@ -1,0 +1,56 @@
+@import "../variables";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/variables";
+
+.repeat-text {
+  &, .rt-entry {
+    color: lighten($text-muted, 10%);
+  }
+
+  .rt-item {
+    color: $text-color;
+  }
+
+  .rt-result {
+    font-size: 75%;
+  }
+
+  .rt-recorded {
+    color: $text-muted;
+  }
+
+  .rt-recording, .rt-playing {
+    color: #ef6c00;
+  }
+}
+
+.rt-recording {
+  .rt-word {
+    &.poor, &.bad {
+      background: #ffebee;
+    }
+
+    &.soso {
+      background: #fff9c4;
+    }
+  }
+}
+
+.rt-item {
+  .rt-word {
+    &.poor, &.bad {
+      border-bottom: 1px solid #d32f2f;
+    }
+
+    &.soso {
+      border-bottom: 1px solid #f9a825;
+    }
+  }
+
+  &.poor {
+    border-bottom: 1px solid #d32f2f;
+
+    .rt-word {
+      border-bottom: none;
+    }
+  }
+}
