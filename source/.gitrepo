@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:ll100-cn/leaf-components.git
+	branch = master
+	commit = 44a6aa3db1f97b6a137d753e13bc3fbe9c548bdb
+	parent = a84c2c85a5e1de2a7e6acca43edbb04ab4ff990c
+	cmdver = 0.4.0
+	method = merge
